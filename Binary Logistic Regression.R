@@ -33,7 +33,7 @@ library(ROCR) # ROC curve
 #1. Import BIRTH WEIGHT data.
 
 # Load the data
-birthWeight<-read.csv(file.choose(), header = TRUE)
+birthWeight<-read.csv("BIRTH_WEIGHT_csv.csv", header = TRUE)
 head(birthWeight) # View first 6 rows
 dim(birthWeight) # Check the dimension of the dataset
 summary(birthWeight) #Summarizing data and checking for missing values
